@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["ラビミだよ", "製作者: ラビミ"];
-const statusTypes = [ 'iOS', 'idle'];
+const statusTypes = [ 'offline', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
